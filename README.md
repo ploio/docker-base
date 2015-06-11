@@ -3,7 +3,7 @@
 ![logo](http://pkgs.alpinelinux.org/assets/alpinelinux-logo.svg)
 
 [Alpine Linux][] is a Linux distribution built around [musl libc][] and [BusyBox][].
-This image is based on the official Alpine Linux.
+This image is based on the official [Alpine Linux](https://registry.hub.docker.com/_/alpine/)
 
 # Supported tags
 
