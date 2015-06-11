@@ -7,8 +7,8 @@ This image is based on the official Alpine Linux.
 
 # Supported tags
 
--	[`3.2`](https://github.com/portefaix/docker-base/tree/3.2)
--	[`3.1`](https://github.com/portefaix/ocker-basee/tree/3.1)
+-	[`3.2`](https://github.com/portefaix/docker-base/tree/master/3.2)
+-	[`3.1`](https://github.com/portefaix/ocker-basee/tree/master/3.1)
 
 
 [Alpine Linux]: http://www.alpinelinux.org
