@@ -2,7 +2,7 @@
 
 ![logo](http://pkgs.alpinelinux.org/assets/alpinelinux-logo.svg)
 
-[Alpine Linux][] is a Linux distribution built around musl libc and BusyBox.
+[Alpine Linux][] is a Linux distribution built around [musl libc][] and [BusyBox][].
 This image is based on the official Alpine Linux.
 
 # Supported tags
@@ -12,4 +12,5 @@ This image is based on the official Alpine Linux.
 
 
 [Alpine Linux]: http://www.alpinelinux.org
-
+[musl libc]: http://www.musl-libc.org
+[BusyBox]: http://www.busybox.net
