@@ -2,7 +2,7 @@
 # Portefaix base image.
 #
 
-FROM alpine:3.1
+FROM alpine:3.2
 MAINTAINER Nicolas Lamirault <nicolas.lamirault@gmail.com>
 
 # Install base packages
