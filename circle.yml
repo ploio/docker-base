@@ -1,0 +1,28 @@
+machine:
+  services:
+    - docker
+
+general:
+  branches:
+    ignore:
+      - gh-pages # list of branches to ignore
+
+dependencies:
+  cache_directories:
+    - "~/docker"
+  override:
+    - docker info
+    - docker build -t portefaix/base:3.1 3.1 
+    - docker build -t portefaix/base:3.2 3.2
+
+test:
+  override:
+    - docker run portefaix/base:3.1 /bin/ls ; sleep 10
+    - docker run portefaix/base:3.2 /bin/ls ; sleep 10
+
+#deployment:
+#  hub: 
+#    branch: master
+#    commands:
+#      - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+#      - docker push portefaix/elasticsearch
