@@ -9,9 +9,8 @@ This image is based on the official [Alpine Linux](https://registry.hub.docker.c
 
 # Supported tags
 
--	[`3.2`](https://github.com/portefaix/docker-base/tree/master/3.2)
--	[`3.1`](https://github.com/portefaix/ocker-basee/tree/master/3.1)
-
+- `3.2` [![](https://badge.imagelayers.io/portefaix/base:3.2.svg)](https://imagelayers.io/?images=portefaix/base:3.2 'imagelayers.io')
+- `3.1` [![](https://badge.imagelayers.io/portefaix/base:3.1.svg)](https://imagelayers.io/?images=portefaix/base:3.1 'imagelayers.io')
 
 [Alpine Linux]: http://www.alpinelinux.org
 [musl libc]: http://www.musl-libc.org
