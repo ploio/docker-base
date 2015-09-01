@@ -2,7 +2,7 @@
 
 [![Circle CI](https://circleci.com/gh/portefaix/docker-base.svg?style=svg)](https://circleci.com/gh/portefaix/docker-base)
 
-![logo](http://pkgs.alpinelinux.org/assets/alpinelinux-logo.svg)
+![logo](https://pkgs.alpinelinux.org/assets/alpinelinux-logo.svg)
 
 [Alpine Linux][] is a Linux distribution built around [musl libc][] and [BusyBox][].
 This image is based on the official [Alpine Linux](https://registry.hub.docker.com/_/alpine/)
