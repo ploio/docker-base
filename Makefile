@@ -36,7 +36,7 @@ help:
 
 .PHONY: build
 build:
-	@echo -e "$(ok_color)[$(app)] build $(NAMESPACE)/$(IMAGE):$(VERSION)$(no_color)"
+	@echo -e "$(OK_COLOR)[$(APP)] build $(NAMESPACE)/$(IMAGE):$(VERSION)$(NO_COLOR)"
 	@$(DOCKER) build -t $(NAMESPACE)/$(IMAGE):${VERSION} $(version)
 
 .PHONY: login

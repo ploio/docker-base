@@ -1,6 +1,10 @@
 Portefaix Base ChangeLog
 =================================
 
+# Version 0.3.0 (12/15/2015)
+
+- Add Alpine Linux Edge version
+
 # Version 0.2.0 (08/26/2015)
 
 - Add CircleCI 
