@@ -39,6 +39,11 @@ build:
 	@echo -e "$(OK_COLOR)[$(APP)] build $(NAMESPACE)/$(IMAGE):$(VERSION)$(NO_COLOR)"
 	@$(DOCKER) build -t $(NAMESPACE)/$(IMAGE):${VERSION} $(version)
 
+.PHONY: run
+run:
+	@echo -e "$(OK_COLOR)[$(APP)] run $(NAMESPACE)/$(IMAGE):$(VERSION)$(NO_COLOR)"
+	@$(DOCKER) run -it --rm=true $(NAMESPACE)/$(IMAGE):$(VERSION) /bin/bash
+
 .PHONY: login
 login:
 	@$(DOCKER) login https://index.docker.io/v1/

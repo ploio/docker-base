@@ -13,6 +13,7 @@ This image is based on the official [Alpine Linux](https://registry.hub.docker.c
 
 # Supported tags
 
+- `3.3` [![](https://badge.imagelayers.io/portefaix/base:3.3.svg)](https://imagelayers.io/?images=portefaix/base:3.3 'imagelayers.io')
 - `3.2` [![](https://badge.imagelayers.io/portefaix/base:3.2.svg)](https://imagelayers.io/?images=portefaix/base:3.2 'imagelayers.io')
 - `3.1` [![](https://badge.imagelayers.io/portefaix/base:3.1.svg)](https://imagelayers.io/?images=portefaix/base:3.1 'imagelayers.io')
 - `edge` [![](https://badge.imagelayers.io/portefaix/base:edge.svg)](https://imagelayers.io/?images=portefaix/base:edge 'imagelayers.io')

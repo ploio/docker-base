@@ -1,6 +1,11 @@
 Portefaix Base ChangeLog
 =================================
 
+# Version 1.0.0 (07/01/2016)
+
+- Add Alpine Linux 3.3
+- Add task to run a container 
+
 # Version 0.3.0 (12/15/2015)
 
 - Add Alpine Linux Edge version
