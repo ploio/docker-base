@@ -1,7 +1,7 @@
 Portefaix Base ChangeLog
 =================================
 
-# Version 1.0.0 (03/06/2016)
+# Version 1.1.0 (03/06/2016)
 
 - Add Alpine Linux 3.4
 
